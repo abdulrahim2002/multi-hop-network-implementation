@@ -32,7 +32,6 @@ def main():
     for i in range(num_packets):
         # read the packet
         packet = pickle.load(open(f'{parent_dir}/packets/{i+1}.pkt','rb'))
-        print(f'packet id: {packet.packet_id} unapacked')
         # append the payload to file
         convertPacketToMessage(packet, string= False)
 
