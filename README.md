@@ -42,6 +42,14 @@ TCP/IP protocol to implement the network.
 ![image](https://user-images.githubusercontent.com/89011337/220157521-dd3b2783-b354-482c-96af-96cfd5f77490.png)
 
 ## HOW TO USE THE PROGRAM
+STEP 1: OPEN THE SERVER ON MACHINE 4, `serverm4.bat` and note down the listening as ip adress/ip adress of macihne 4
+STEP 2: OPEN CLIENT ON MACHINE 3, LOOK FOR HOST VARIABLE AND UPDATE THAT VALUE WITH THE IP ADRESS FOUND ABOVE
+
+STEP 3: OPEN THE SERVER ON MACHINE 3, `serverm3.bat` and note down the listening as ip adress/ip adress of macihne 3
+STEP 4: OPEN CLIENT ON MACHINE 2, LOOK FOR HOST VARIABLE AND UPDATE THAT VALUE WITH THE IP ADRESS FOUND ABOVE
+
+STEP 5: OPEN THE SERVER ON MACHINE 2, `serverm2.bat` and note down the listening as ip adress/ip adress of macihne 2
+STEP 6: OPEN CLIENT ON MACHINE 1, LOOK FOR HOST VARIABLE AND UPDATE THAT VALUE WITH THE IP ADRESS FOUND ABOVE
 
 ![image](https://user-images.githubusercontent.com/89011337/220157626-5ac9f593-d2b6-4ae5-bae5-62bbfb486398.png)
 
