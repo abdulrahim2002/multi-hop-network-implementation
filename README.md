@@ -68,6 +68,10 @@ This flow control mechanism forces the sender after transmitting a data frame to
 
 ![image](https://user-images.githubusercontent.com/89011337/220157960-5520a35b-12af-4f06-91d2-7c0a8bb166d5.png)
 
+### IT MAY BE POSSIBLE THAT THE SENDER AND RECIEVER WORK AT DIFFERENT SPEEDS, BUT IN OUR IMPLEMENTATION WE HAVE USED clientsocket.recv()
+### If there is no data available to receive, then clientsocket.recv() will block the program execution until some data is received or 
+### the connection is closed. WHICH MEANS THE PROGRAM IS GURANTEED TO EXECUTE IRRESPECTIVE OF THE TIME IT WILL TAKE FOR THE
+
 ## PACKET CLASS
 ![image](https://user-images.githubusercontent.com/89011337/220158648-c3104fd3-f342-45b1-86c3-4bd8d4663dab.png)
 
