@@ -1,22 +1,30 @@
 # MULTI HOP NETWORK IMPLEMENTATION
 ## PROBLEM STATEMENT
+
 Client/Server program to exchange data packets across the multi-hop network. Implemented in python using socket library.
 
 The attributes of the packet are as follows.
 (i) Client Id (Host Name/Any Name which defines the identification of machine from where a
 network packets will be shared over the network)
+
 (ii) Client IP Address (IP address of the source machine if single machine is used to test the
 program then loopback (127.0.0.1) address may be used
+
 (iii) Destination IP Address (IP address of the destination machine if single machine is used to
 test the program then loopback (127.0.0.1) address may be used
+
 (iv) Payload of Packet (How many bytes of information a packet will carry. This parameter will
 be variable and a user can define at the runtime of the program)
+
 (v) Total Number of Packets for the message (Divide the message size with payload and find the
 number of packet for the message. If division is perfect otherwise payload of last packet will
 be different. Message will be of any kind- it may be executable/image/text file, etc.)
+
 (vi) Current Packet Id (It shows the packet number out of the total packets)
+
 (vii) Name of the message (What kind of name will be given to message using which it will be
 delivered at the recipient side. If it is a file then name of the file with its extension.)
+
 (viii) Security Certificate.
 
 # NOTE: THE MACHINES MUST BE ON THE SAME NETWORK FOR THE PROGRAM TO WORK
