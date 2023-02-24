@@ -51,6 +51,7 @@ TCP/IP protocol to implement the network.
 ![image](https://user-images.githubusercontent.com/89011337/220157521-dd3b2783-b354-482c-96af-96cfd5f77490.png)
 
 ## HOW TO USE THE PROGRAM
+### FIRST MAKE A FOLDER NAMED 'packets',  IN EACH OF THE DIRECTORIES
 STEP 1: OPEN THE SERVER ON MACHINE 4, `serverm4.bat` and note down the listening as ip adress/ip adress of macihne 4
 STEP 2: OPEN CLIENT ON MACHINE 3, LOOK FOR HOST VARIABLE AND UPDATE THAT VALUE WITH THE IP ADRESS FOUND ABOVE
 
