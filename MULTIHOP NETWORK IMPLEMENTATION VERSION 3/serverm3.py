@@ -59,10 +59,6 @@ for i in range(num_packets):
 # close the socket
 clientsocket.close()
 
-def fireClientScript():
-    # fire the forward to machine3 script, which triggers clientm2 program
-    process = subprocess.Popen(['cmd', '/C', 'clientm2.bat'], creationflags= subprocess.CREATE_NEW_CONSOLE)
-    exit_code = process.wait()
-
-fireClientScript()
-
+# fire the forward to machine3 script, which triggers clientm2 program
+process = subprocess.Popen(['cmd', '/C', 'clientm2.bat'], creationflags= subprocess.CREATE_NEW_CONSOLE)
+exit_code = process.wait()
