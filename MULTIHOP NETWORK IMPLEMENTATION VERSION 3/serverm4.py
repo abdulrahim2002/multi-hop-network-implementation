@@ -60,7 +60,6 @@ for i in range(num_packets):
 # close the socket
 clientsocket.close()
 
-# fire the forward to unpack script
 process = subprocess.Popen(['cmd', '/C', 'unpack.bat'], creationflags= subprocess.CREATE_NEW_CONSOLE)
 exit_code = process.wait()
 
